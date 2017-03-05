@@ -1,4 +1,7 @@
-¡Bienvenido a Pitón - el primer intérprete español para el lenguaje de programación Python! Este programa permite a cualquier usuario programar en español - traduce un programa español a uno en inglés, metiendo el código nuevo en un archivo ejecutable. Debajo de aquí, hallarás un ejemplo que funciona para demostrar la manera de usar Pitón. Para ejecutar este programa, copia lo todo entre los asteriscos.   
+¡Bienvenido a Pitón - el primer intérprete español para el lenguaje de programación Python! 
+Este programa permite a cualquier usuario programar en español - traduce un programa español a uno en inglés, 
+metiendo el código nuevo en un archivo ejecutable. Debajo de aquí, hallarás un ejemplo que funciona para 
+demostrar la manera de usar Pitón. Para ejecutar este programa, copia lo todo entre los asteriscos.   
 
 *******************************
 traducir('hola' : 'hello')
@@ -11,7 +14,9 @@ nombre = ingresar('Name: ')
 hola(nombre)
 *******************************
 
-Después, en la terminal, navega al directorio que contiene Pitón, crea un nuevo archivo (llámalo “programa.txt”) y pega el código en ello. Guárdalo, y otra vez en la terminal, ejecuta “python interpreter.py”. Si has tenido éxito, verás esto en el terminal:
+Después, en la terminal, navega al directorio que contiene Pitón, crea un nuevo archivo (llámalo “programa.txt”)
+y pega el código en ello. Guárdalo, y otra vez en la terminal, ejecuta “python interpreter.py”. Si has tenido 
+éxito, verás esto en el terminal:
 
 *******************************
 Name:
@@ -23,7 +28,8 @@ y cuando ingreses una palabra, se imprimirá:
 Hello, <nombre>!
 *******************************
 
-También, si todo está funcionando bien, un archivo que se llama “program.py” habrá aparecido, el que contiene lo siguiente:
+También, si todo está funcionando bien, un archivo que se llama “program.py” habrá aparecido, el que 
+contiene lo siguiente:
 
 *******************************
  
@@ -35,4 +41,9 @@ nombre = input('Name: ')
 hello(nombre) 
 *******************************
 
-¡Y ya estás lista para programar! Sin embargo, hay algunas notas importantes: puedes encontrar una lista completa de palabras que sabe el intérprete dentro de “interpreter.py”. Si quieres añadir una palabra al diccionario localmente dentro de un programa, usa la función “traducir”, con *exactamente* la misma sintaxis del ejemplo; a menos que emplee las comillas *singulares*, el código no funcionará. Finalmente, como estás programando en español, los números flotantes se escriben con una coma en vez de un punto (es decir, “4,56” en vez de “4.56”).  
+¡Y ya estás lista para programar! Sin embargo, hay algunas notas importantes: puedes encontrar una lista 
+completa de palabras que sabe el intérprete dentro de “interpreter.py”. Si quieres añadir una palabra al 
+diccionario localmente dentro de un programa, usa la función “traducir”, con *exactamente* la misma sintaxis 
+del ejemplo; a menos que emplee las comillas *singulares*, el código no funcionará. Finalmente, como estás 
+programando en español, los números flotantes se escriben con una coma en vez de un punto 
+(es decir, “4,56” en vez de “4.56”).  
