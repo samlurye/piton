@@ -1,0 +1,8 @@
+def hola(nombre):
+	imprimir('Hello, ' + nombre + '!')
+
+nombre = ingresar('Name: ')
+
+hola(nombre)
+
+traducir('hola' : 'hello')
